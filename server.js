@@ -2,9 +2,11 @@ const express = require('express')
 const app = express()
 const data = require('./quiz1.json')
 
-app.get('/', function (req, res) {
+app.get('/quiz1', function (req, res) {
   res.send(data)
 })
+
+app.use(express.static('public'))
 
 var server = app.listen(3000, function () {
   var host = server.address().address;
