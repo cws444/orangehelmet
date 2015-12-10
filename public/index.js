@@ -31,5 +31,14 @@ window.fetch('/quiz1').then(function (response) {
       questionContainer.appendChild(optionbox)
       optionbox.classList.add('option')
     })
+
+quizContainer.addEventListener('click', clickHandler)
+
+function clickHandler(event){
+  var clickAnswer = event.target
+  if (clickAnswer.className !== 'option') return
+  questionContainer.classList.add("isHidden")
+
+}
   })
 })
