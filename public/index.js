@@ -22,7 +22,7 @@ window.fetch('../quiz1.json').then(function (response) {
     var rightAnswer = quiz['questions'][0]['rightAnswer']
     options.push(rightAnswer)
     options = _.shuffle(options)
-    console.log(options)
+    //console.log(options)
     options.forEach(function(option){
       console.log(option)
 //create element and put it into DOM
