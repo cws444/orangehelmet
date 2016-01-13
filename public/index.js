@@ -5,8 +5,8 @@ window.fetch('../quiz1.json').then(function (response) {
     var quiz = JSON.parse(data)
 //create title
     var title = document.getElementById('title')
-    title.innerText = 'How Well Do You Know ${quiz['name']}?'
-//create quizContainer'
+    title.innerText = `How Well Do You Know ${quiz['name']}?`
+//create quizContainer
     var quizContainer = document.getElementById('quiz')
 //create questionContainer
     var questionContainer = document.createElement('div')
