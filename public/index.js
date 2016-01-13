@@ -16,10 +16,10 @@ window.fetch('../quiz1.json').then(function (response) {
     quizContainer.appendChild(questionContainer)
 //Edit inner Text
     var question = document.createElement('div')
-    question.innerText = quiz['questions'][1]['question']
+    question.innerText = quiz['questions'][0]['question']
     questionContainer.appendChild(question)
-    var options = quiz['questions'][1]['wrongAnswers']
-    var rightAnswer = quiz['questions'][1]['rightAnswer']
+    var options = quiz['questions'][0]['wrongAnswers']
+    var rightAnswer = quiz['questions'][0]['rightAnswer']
     options.push(rightAnswer)
     options = _.shuffle(options)
     console.log(options)
