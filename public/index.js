@@ -1,5 +1,5 @@
 /*Get Data From server*/
-window.fetch('/quiz1.json').then(function (response) {
+window.fetch('../quiz1.json').then(function (response) {
   response.text().then(function (data) {
 //make response into object so that we can manipulate
     var quiz = JSON.parse(data)
