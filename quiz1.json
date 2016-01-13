@@ -1,0 +1,23 @@
+{
+  "name":"Sean",
+  "questions":[{
+    "question" : "What is your favourite band?",
+    "rightAnswer" : "U2",
+    "wrongAnswers" : ["Backstreet Boys", "The Beatles", "Bon Jovi"]
+  },
+  {
+    "question" : "What is your favourite colour?",
+    "rightAnswer" : "Pink",
+    "wrongAnswers" : ["Blue", "Yellow", "Black"]
+  },
+  {
+    "question" : "What MRT station do I live nearest to?",
+    "rightAnswer" : "Ang Mo Kio",
+    "wrongAnswers" : ["Bishan", "Dakota", "Bugis"]
+  },
+  {
+    "question" : "What's my favourite food?",
+    "rightAnswer" : "Italian",
+    "wrongAnswers" : ["French", "Chinese", "Indian"]
+  }]
+}
