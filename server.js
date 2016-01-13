@@ -1,8 +1,8 @@
 const express = require('express')
 const app = express()
-const data = require('./quiz1.json')
+const data = require('../quiz1.json')
 
-app.get('/quiz1', function (req, res) {
+app.get('../quiz1.json', function (req, res) {
   res.send(data)
 })
 
